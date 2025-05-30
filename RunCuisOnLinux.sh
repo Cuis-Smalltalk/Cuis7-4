@@ -45,7 +45,7 @@ else # all-in-one bundle
 
     BINDIR="${ROOT}/CuisVM.app/Contents/Linux-${CPU}/"
     IMAGEDIR="${ROOT}/CuisImage/"
-    IMAGE="`echo ${IMAGEDIR}/Cuis?.?-????.image`"
+    IMAGE="`echo ${IMAGEDIR}/Cuis7.4.image`"
 fi
 
 if [ -z "$VM" ]; then
